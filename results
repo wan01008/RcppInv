@@ -1,0 +1,11 @@
+Using True GRM from UKBiobank
+
+the GRM with all the small off-diagonal elements (for example, those <0.05) set to zero
+
+10,000 * 10,000 CRM
+EigenRcpp(dense): 3.24767 mins (11,772,988K )
+EigenRcpp(sparse): 1.366765 secs (73,216,536K)
+
+50,000 * 50,000 CRM
+EigenRcpp(dense): 6.997787 hours (179,231,416K)
+EigenRcpp(sparse): 1.83252 mins (167,756,444K)
