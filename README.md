@@ -8,3 +8,5 @@ Code and primary results for inversing large sparse matrix using Rcpp
 **yhatRenRcpp.R**: Jingchen's R code for getting yhat with the inverse function replaced with Rcpp sparse inverse function.
 
 **DiagMul.cpp**: the C++ function based on Rcpp for matrix multiplication (diagonal matrix with a regular one), which is used in one part of **yhatRenRcpp.R** to save the running time. 
+
+**results**: results I have so far. In the format of running time used (memory size used). 
